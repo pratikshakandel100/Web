@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+}
+.d1{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.d1s1{
+    height: 60%;
+    width: 100%;
+    background-image: url("sea.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.d1s2{
+    height: 40%;
+    width: 100%;
+}
+.d2{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.d2s1{
+    height: 60%;
+    width: 100%;
+    background-image: url("parrot.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.d2s2{
+    height: 40%;
+    width: 100%;
+}
+
+.d1:hover{
+    box-shadow: 2px 2px 10px;
+}
+.d2:hover{
+    box-shadow: 2px 2px 10px;
+}
