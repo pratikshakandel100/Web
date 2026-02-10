@@ -1,0 +1,36 @@
+/* 2 */
+*{
+    text-align: center;
+}
+
+/* 1 */
+#mainTopic{
+    color:blue;
+}
+/* 3 */
+#h{
+    font-family: 'Georgia';
+}
+/* 4 */
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+.d button{
+    background-color: purple;
+    color: azure;
+}
+.d button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n-1){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+/* 8 */
+#yess:checked + label{
+   color: darkgreen;
+}

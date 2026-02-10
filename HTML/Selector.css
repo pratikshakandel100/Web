@@ -1,0 +1,20 @@
+* {
+    font-family: 'Courier New';
+}
+h1{
+    color: #1b74e4;
+}
+.sea{
+    background-color: black;
+    color: white;
+
+}
+.b{
+    background-color: aqua;
+}
+div p{
+    color: green;
+}
+div + h3{
+    color: yellow;
+}

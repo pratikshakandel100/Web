@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.div1{
+    height: 150px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    place-items: center;
+    flex-direction: column;  
+}
+.child{
+    height: 99%;
+    width: 85%;
+    border: 2px solid black;  
+    margin: 5px;
+    border-radius: 50%;
+   
+
+}

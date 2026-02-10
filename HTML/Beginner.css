@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:  Helvetica, sans-serif;
+}
+h2{
+    color:orange;
+
+}
+button{
+    background-color: blue;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
