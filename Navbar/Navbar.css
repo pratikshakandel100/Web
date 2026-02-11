@@ -1,0 +1,46 @@
+.container{
+    width: 90%;
+    height: 60;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: palegreen;
+    box-shadow: 2px 2px 2px palegreen;
+    transition: 2s;
+    transition-delay: 2s;
+}
+.logo{
+     width: 50px;
+     height: 50px;
+     margin: 5px;
+     border-radius: 50%;
+     background-image: url(parrot.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+
+}
+.login{
+    width:50px;
+    height:25px;
+    margin: 5px;
+    margin-top: 15px;
+    color: blueviolet;
+    background-color: blueviolet;
+    color:aliceblue;
+}
+
+.home, .destination, .explore{
+    height:20px;
+    width: 79px;
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: blueviolet;
+    font-weight: bold;
+    color:aliceblue;
+}
+.logo:hover, .home:hover, .destination:hover, .explore:hover, .login:hover{
+  box-shadow: 2px 2px 2px black;
+}
