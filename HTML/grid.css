@@ -1,0 +1,87 @@
+.container{
+    height: 500px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 1px;
+    column-gap: 1px;
+    justify-items: end;
+    align-items: start;
+    
+    
+}
+
+.smalldiv1{
+    height: 100px;
+    width: 200px;
+    background-image: url("Butterfly.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-self: start;
+}
+
+.smalldiv2{
+    height: 100px;
+    width: 200px;
+    background-image: url("Sea.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.smalldiv3{
+    height: 100px;
+    width: 200px;
+    background-image: url("Waterfall.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.smalldiv4{
+    height: 100px;
+    width: 200px;
+    background-image: url("Snake.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.smalldiv5{
+    height: 100px;
+    width: 200px;
+    background-image: url("Dolphin.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.smalldiv6{
+    height: 100px;
+    width: 200px;
+    background-image: url("bird.jfif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    /* grid-row-start: 1;
+    grid-row-end: 3; 
+    grid-column-start: 1;
+    grid-column-end: 3; */
+    
+    
+    
+}
+.smalldiv7{
+    height: 100px;
+    width: 200px;
+    background-image: url("Penguin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    z-index: 1;
+}
