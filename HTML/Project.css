@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.card1{
+    height: 400px;
+    width:400px;
+    transform: translate(300px,0px);
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 2px 2px  2px black;
+    
+}
+.imageDiv1{
+    height: 65%;
+    width: 100%;
+    background-image: url("Penguin.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.card2{
+    height: 400px;
+    width:400px;
+    transform: translate(400px,0px);
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow: 2px 2px  2px black;
+    
+}
+.imageDiv2{
+    height: 65%;
+    width: 100%;
+    background-image: url("Dolphin.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+    .container{
+        display: inline;
+        /* flex-wrap: wrap; */
+
+    }
+    .card2{
+        transform: translate(0px,50px);
+        margin:50px;
+        margin-left: 0px;
+    }
+    .card1{
+        transform: translate(0px,50px);
+    }
+}
