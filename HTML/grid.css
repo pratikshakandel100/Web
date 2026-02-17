@@ -85,3 +85,10 @@
     grid-row-start: 1;
     z-index: 1;
 }
+
+/* ANIMATION */
+@keyframes myWidth {
+    from{
+        
+    }
+}

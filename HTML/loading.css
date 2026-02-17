@@ -1,0 +1,18 @@
+.loading{
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-top: 16x solid red;
+    border-radius: 50%;
+    border: 16px solid  rebeccapurple;
+    text-align: center;
+    animation: load 5s linear infinite;
+}
+@keyframes load {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
